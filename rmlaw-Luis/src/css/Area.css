@@ -1,0 +1,36 @@
+.area {
+    width: 555px;
+    height: 44px;
+    background-color: #3d89cc;
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+    padding-left: 0.8em;
+}
+
+.areas {
+    /* border: solid 1px #ff00e1; */
+    width: 50%;
+    height: 600px;
+    padding: 50px 15px;
+}
+
+.linkArea, .ii {
+    color: #fff;
+    font-size: 18px;
+}
+
+.linkArea:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+.ii{
+    margin-right: 10px;
+}
+
+.font{
+    padding-top: 16px;
+    font-size: 18px;
+    
+}

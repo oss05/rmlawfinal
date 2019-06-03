@@ -1,0 +1,18 @@
+.text{
+    /* border: solid 1px blue; */
+    width: 80%;
+    height: auto;
+}
+
+.textContent{
+
+    /* border: solid 1px #ff6f00; */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px 0 10px 30px;
+    align-items: flex-start;
+    padding-top: 2em;;
+}
+

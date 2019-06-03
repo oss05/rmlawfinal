@@ -1,0 +1,21 @@
+.img{
+    /* border: solid 1px red; */
+    width: 50%;
+    height: 600px;
+    padding: 62px 0;
+    
+}
+
+.homeImg{
+    /* border: solid 1px red */
+}
+
+.imgContainer{
+    /* border: solid 1px blue; */
+    display: flex;
+    justify-content: flex-end;
+}
+
+.emptySpace{
+    width: 185px;
+}

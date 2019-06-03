@@ -1,0 +1,42 @@
+.publicacion-component {
+    /* border: solid 1px greenyellow; */
+    margin: 10px 8em;
+    font-weight: 300;
+}
+
+.publicacion-content {
+    /* border: solid 1px #ff2fa1; */
+    margin: 1em 0;
+    display: flex;
+    flex-direction: column;
+    border-left: solid 5px #eeeeee;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.publicacion-content p {
+    margin-left: 15px;
+}
+
+.publicacion-content img {
+    width: 28px;
+}
+
+.publicacion-content a {
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+.titulosPublicaciones{
+    /* border: solid 1px #ff2fa1; */
+    margin: 1em 4em;
+    font-size: 32px;
+    font-weight: 300;
+    color: #3b4550;
+}
+
+.abogadoCont{
+    width: 80%;
+    margin-left: 8em;
+    margin-bottom: 8em;
+}
