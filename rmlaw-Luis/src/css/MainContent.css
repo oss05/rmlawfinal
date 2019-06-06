@@ -181,6 +181,7 @@ button{
         border-radius: 15px;
         color: #000;
         padding: 1em;
+        z-index: 999999;
     }
 
     .navCont {
@@ -270,6 +271,11 @@ button{
         align-items: center;
         color: #9fa4af;
     }
+    .titleFont{
+        font-size: 27px !important;
+        line-height: 36px;
+        font-weight: 300;
+    }
 
     .titulosPublicaciones {
         /* border: solid 1px #ff2fa1; */
@@ -341,3 +347,9 @@ button{
         margin-bottom: 0 !important;
     }
   }
+
+  @media (min-width: 1200px){
+.navbar-expand-md {
+    flex-flow: row nowrap !important;
+    justify-content: flex-start !important;
+}}
