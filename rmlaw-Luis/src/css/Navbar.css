@@ -9,7 +9,8 @@
 
 .custom-navbar{
     /* border: solid 1px orange; */
-    width: 1200px;  
+    width: 1200px; 
+    z-index: 9999999; 
 }
 
 .navItem{
