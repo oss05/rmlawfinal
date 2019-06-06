@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from '../assets/logoSOMA.png'
+import Logo from '../assets/somo-white.png'
 import aviso from '../assets/aviso-de-privacidad.pdf'
 import '../css/Footer.css';
 
