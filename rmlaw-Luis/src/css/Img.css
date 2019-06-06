@@ -15,6 +15,11 @@
     /* border: solid 1px blue; */
     display: flex;
     justify-content: flex-end;
+    z-index: 0;
+}
+
+.imgContainer > a {
+    z-index: 0;
 }
 
 .emptySpace{
