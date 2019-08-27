@@ -9,7 +9,7 @@ const Contacto = props => {
                 <h2 className="font" style={{ fontSize: 22 }}>{props.data.contenido.contacto.title}</h2>
                 <div className="contactGroup">
                     <FontAwesomeIcon className="contactGroupIcon" icon="envelope" />
-                    <p className="contactGroup">Email: contacto@rmlaw.com.mx</p>
+                    <a href="mailto:contacto@rmlaw.com.mx" className="contactGroup">Email: contacto@rmlaw.com.mx</a>
                 </div>
                 <div className="contactGroup">
                     <FontAwesomeIcon className="contactGroupIcon" icon="phone" />
