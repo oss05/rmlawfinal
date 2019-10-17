@@ -1,3 +1,5 @@
+import ReactGA from 'react-ga';
+import TagManager from 'react-gtm-module'
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import { library } from '@fortawesome/fontawesome-svg-core'
@@ -28,6 +30,20 @@ import Esp from '../lang/Esp.json'
 import Eng from '../lang/Eng.json'
 import '../css/App.css';
 library.add(fas)
+
+function initializeReactGA() {
+  ReactGA.initialize('UA-147143628-1');
+  ReactGA.pageview('/');
+}
+
+initializeReactGA()
+
+
+const tagManagerArgs = {
+  gtmId: 'GTM-PP2QRTD'
+}
+
+TagManager.initialize(tagManagerArgs)
 
 const dataEsp = Esp
 const dataEng = Eng
@@ -60,7 +76,7 @@ class App extends Component {
     <Router>
       <div>
         <Navbar data={this.state.data} handelChangeIdioma={this.handelChangeIdioma} idioma={this.state.idioma}/>
-        <Badge />
+        <Badge/>
         <Route exact path="/" component={() => <Home data={this.state.data} />} />
         <Route path="/quienessomos" component={() => <QuienesSomos data={this.state.data} /> } />
         <Route path="/abogados" component={() => <Abogados data={this.state.data} />} />

@@ -8,8 +8,8 @@ const Publicacion = props => {
             <p className="font" style={{ fontSize: 18 }}>{props.Titulo} </p>
             <div className="publicacion-content">
                 <p className="font" style={{ fontSize: 17, color: "#635f7d" }}>{props.Parrafo}</p>
-                <a href={props.publicacionLink}>PDF Download</a>
-                <a href={props.publicacionLink}><img src={Imagepdf} alt="pdf" /></a>
+                <a href={props.publicacionLink} target="_blank">PDF Download</a>
+                <a href={props.publicacionLink} target="_blank"><img src={Imagepdf} alt="pdf" /></a>
             </div>
         </div>
     )

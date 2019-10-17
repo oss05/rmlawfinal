@@ -3,6 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import Logorma from '../assets/logo-rma.png';
 import '../css/Navbar.css';
+import english from '../assets/english.png';
 import {
   Collapse,
   Navbar,
@@ -19,7 +20,7 @@ import {
 
 const imagesPath = {
   mx: 'https://cdn.icon-icons.com/icons2/1531/PNG/512/3253493-flag-mexico-icon_106775.png',
-  us: 'https://cdn.countryflags.com/thumbs/united-states-of-america/flag-round-250.png'
+  us: 'https://i.ibb.co/zspqyGS/english.png'
 }
 
 export default class CustomNavbar extends React.Component {
